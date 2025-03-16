@@ -1,0 +1,28 @@
+body {
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background: #222;
+}
+
+.dark-mode .btn-light {
+    background: #ffffff;
+    color: #000;
+}
+
+.dark-mode .news-item {
+    background: #333;
+    color: #ffffff;
+}
+
+.news-item {
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}

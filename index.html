@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time News App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">NewsApp</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="business">Business</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="entertainment">Entertainment</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="general">General</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="health">Health</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="science">Science</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="sports">Sports</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="technology">Technology</button></li>
+                    <li class="nav-item"><button class="category-btn btn btn-link nav-link" data-category="world">World</button></li>
+                </ul>
+                <button id="theme-toggle" class="btn btn-outline-light ms-auto">Dark Mode</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center">Latest News</h1>
+        <div id="news-container" class="row"></div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
